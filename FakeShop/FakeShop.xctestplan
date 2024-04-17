@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "D43AD0B7-BCFA-4453-960A-A600CB7928B7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FakeShop.xcodeproj",
+      "identifier" : "4FA66E8F2BBC312B00DC77C7",
+      "name" : "FakeShop"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FakeShop.xcodeproj",
+        "identifier" : "4FA66E9F2BBC312C00DC77C7",
+        "name" : "FakeShopTests"
+      }
+    }
+  ],
+  "version" : 1
+}
